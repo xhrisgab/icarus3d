@@ -7,4 +7,6 @@ docker run -d -v ~/023/icarus/etIcarus-react/public/icarus:/home/vsftpd \
 -e PASV_MIN_PORT=21100 -e PASV_MAX_PORT=21110 -e LOCAL_UMASK=022 \
 --name vsftpd --restart=always fauria/vsftpd
 ```
+Se puede ingresar a Raspberry Pi por ssh, verificar IP, usuario inbox.
+
 atte: Equipo-ICARUS
